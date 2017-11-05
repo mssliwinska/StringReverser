@@ -14,9 +14,9 @@ public class StringReverser {
       String reverse = new StringBuffer(word).reverse().toString();
       System.out.println("Your reversed word is: " + reverse);
     }
-    else {
-      System.out.println("Couldn't reverse empty input");
-    }
+    //else {
+      //System.out.println("Couldn't reverse empty input");
+   // }
   }
 
   public static void main(String[] args){
